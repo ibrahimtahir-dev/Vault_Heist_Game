@@ -66,3 +66,17 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# =====================================================================
+# Custom Additions for VS Code & SFML Game Development
+# =====================================================================
+
+# Ignore personal editor settings and local paths
+.vscode/
+
+# Ignore your final Linux game executable if it has no extension
+/vault-heist
+
+# Ignore local game profile saves if you implement them
+*.sav
+
